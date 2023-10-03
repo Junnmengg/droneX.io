@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="DJI, Hubson, Autel Robotics, Drone">
+    <title>DroneX | About Us</title>
+    <link rel="stylesheet" href="stylesheet/reset.css">
+    <link rel="stylesheet" href="stylesheet/basic_layout.css">
+    <link rel="icon" href="assets/images/commonIcon/DroneX-SmallLogo.png" type="image/x-icon">
+    <!--External Stylesheet-->
+    <link rel="stylesheet" href="stylesheet/aboutus.css">
+</head>
+
+
+
+<body>
+    <section class="grid-container">
+        <header id="header">
+            <nav>
+                <ul>
+                    <li>
+                        <div class="flex-container">
+                            <span class="center-flex">
+                                <div id="hamburger" class="hamburger-button" onclick="toggleIcon(this)">
+                                    <div class="bar1"></div>
+                                    <div class="bar2"></div>
+                                    <div class="bar3"></div>
+                                </div>
+                            </span>
+                            <figure>
+                                <img src="assets/images/commonIcon/DroneX-Logo.png" title="DroneX" class="center"
+                                    alt="Text Logo for DroneX" height="40" usemap="#logo-text">
+                                <map name="logo-text">
+                                    <area shape="rect" coords="0,0,155,57" href="index.html" alt="Home Page">
+                                </map>
+                            </figure>
+                            <button class="hidden" title="Log In or Sign Up">
+                                <a href="signUpLogIn.html">
+                                    <img src=" assets/images/commonIcon/iconsSignIn64x64.png" alt="Sign Up and Log In"
+                                        width="32" height="32">
+                                </a>
+                            </button>
+                        </div>
+                    </li>
+                    <span class="hamburgerMenu">
+                        <li class="not-hidden">
+                            <div>
+                                <input onfocus="listDisplayNone()" onblur="listDisplay()" onkeyup="searchMenuShow(this)"
+                                    type="text" name="search" id="search" placeholder="Search Models">
+                                <button><img src="assets/images/commonIcon/Search-Icon.png" alt="Search Icon" width="16"
+                                        height="16"></button>
+                            </div>
+                        </li>
+                        <li class="not-hidden"><a href="index.html">Home</a></li>
+                        <li class="not-hidden" onmouseover="dropDown1()" onmouseout="hideDropdownMenu1()">
+                            <a href="model.html">Models</a>
+                            <ul onmouseover="cancelHideDropdownMenu1()">
+                                <li><a href="model.html#DJI">DJI</a></li>
+                                <li><a href="model.html#Hubson">Hubson</a></li>
+                                <li><a href="model.html#Autel">Autel Robotics</a></li>
+                            </ul>
+                        </li>
+                        <li class="not-hidden"><a href="service.html">Services</a>
+                        </li>
+                        <li class="not-hidden"><a href="location.html">Location</a>
+                        </li>
+                        <li class="not-hidden"><a href="aboutUs.html">About</a></li>
+                        <li class="not-hidden"><a href="signUpLogIn.html"><span class="nowrap">Sign Up/Log
+                                    In</span></a></li>
+                    </span>
+                </ul>
+            </nav>
+        </header>
+        <main id="main">
+            <section class="searchMenu">
+                <ul id="searchUL">
+                    <li>
+                        <button onclick="searchMenuClose()">
+                            <img src="assets/images/commonIcon/cross.png" alt="Cross" width="36" height="36">
+                        </button>
+                    </li>
+                    <li><a href="DJI1.html">DJI Mini 3 Pro</a></li>
+                    <li><a href="DJI2.html">DJI Mavic 3 Classic</a></li>
+                    <li><a href="DJI3.html">DJI Avata</a></li>
+                    <li><a href="Hubson1.html">Hubson H122D X4 Storm</a></li>
+                    <li><a href="Hubson2.html">Hubson BlackHawk 1</a></li>
+                    <li><a href="Hubson3.html">Hubson Ace Pro</a></li>
+                    <li><a href="Autel1.html">Autel Robotics Evo Max</a></li>
+                    <li><a href="Autel2.html">Autel Robotics Dragonfish</a></li>
+                    <li><a href="Autel3.html">Autel Robotics Evo2 Enterprise V3</a></li>
+                    <p id="warning">There is no result matches.</p>
+                </ul>
+            </section>
+            <section>
+                <!--Code Here-->
+                <div class="firstheader">
+                    <div class="justforonmiddle">
+                        <h1>
+                            ABOUT US
+                        </h1>
+                        <p class="textstylefour">
+                            At DroneX, we're more than just a company; we're enthusiasts, innovators, and experts in the world of drones. 
+                            Founded by a team of passionate drone aficionados, we've made it our mission to bring the excitement of unmanned 
+                            aerial vehicles to enthusiasts, professionals, and businesses worldwide.
+                        </p>
+                    </div>
+
+                    <div class="fuzheren">
+                        <fieldset class="fzbox">
+                            <div>
+                                <div class="flipbox">
+                                    <div class="frontbox">
+                                        <img src="assets/images/aboutus/Dji ceo.jpg" alt="" class="fuzherenpic">
+                                    </div>
+                                    <div class="backbox">
+                                        <p class="fuzheinfo">Invested in the drone field since 2006</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h2>Frank Wang</h2><br>
+                                    <p class="textstylethree">CEO Of DJI</p>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="fzbox">
+                            <div class="flipbox">
+                                <div class="frontbox">
+                                    <img src="assets/images/aboutus/hudson ceo.jpg" alt="" class="fuzherenpic">
+                                </div>
+                                <div class="backbox">
+                                    <p class="fuzheinfo">
+                                        Leader in North American travel retail
+                                    </p>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <h2>Roger Fordyce</h2><br>
+                                    <p class="textstylethree">CEO Of Hubson</p>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="fzbox">
+                            <div>
+                                <div class="flipbox">
+                                    <div class="frontbox">
+                                        <img src="assets/images/aboutus/John_Xina.webp" alt="" class="fuzherenpic">
+                                    </div>
+                                    <div class="backbox">
+                                        <p class="fuzheinfo">
+                                            Known for WWE now trying to be an investor in our DroneX
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <h2>Zhong Xina</h2><br>
+                                    <p class="textstylethree">Busary</p>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="smallTitle">
+                    <p class="secondline">Our History</p>
+                </div>
+
+                <div class="fancyinfo">
+                    <img src="assets/images/commonIcon/DroneX-Logo.png" alt="" class="fancypic" usemap="#fancymap">
+                    <div>
+                        <div class="surprise">
+                            <img src="assets/images/aboutus/blackcircle.png" alt="" class="fancydot">
+                        </div>
+                        <div class="hidden">
+                            <h2 class="fancyheader">
+                                How Long has DroneX open?
+                            </h2>
+                            <p class="fancyword">
+                                DroneX is a company with almost 20 years of history, today is our
+                                18 years of opening and we believe this things will turn better and superior
+                            </p>
+                        </div>
+
+                        <div class="surprise2">
+                            <img src="assets/images/aboutus/blackcircle.png" alt="" class="fancydot2">
+                        </div>
+                        <div class="hidden2">
+                            <h2 class="fancyheader">
+                                What Are We Being Known For?
+                            </h2>
+                            <p class="fancyword">
+                                We are best known as selling good quality of drone to customer with good
+                                services. We want our customer have great experience and knowledge whenever
+                                they visit us
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div>
+                    <p class="secondline">CEO</p>
+                </div>
+
+                <div class="prebigbox">
+                    <fieldset class="prebox">
+                        <section class="cont">
+                            <div>
+                                <img src="assets/images/aboutus/jack ma.jpg" alt="Johnny Kang" class="pre" />
+                                <h2>Jacky Ma</h2><br>
+                                <p class="preinfo">
+                                    CEO of DroneX
+                                </p>
+                            </div>
+                            <p class="texttwo">
+                                Starts the flow known as the CEO of DroneX and motivates
+                                customer become better or say whats he think is right. But whevener he is the one
+                                that starts DroneX
+                            </p>
+                        </section>
+                    </fieldset>
+                </div>
+            </section>
+        </main>
+        <footer id="footer">
+            <button>
+                <a href="#header">
+                    <img src="assets/images/commonIcon/arrow-up.png" alt="Arrow UP" width="32">
+                    <span>UP</span>
+                </a>
+            </button>
+            <div>
+                <section class="flex-container">
+                    <div>
+                        <h2>
+                            Quick Links
+                        </h2>
+                        <ul>
+                            <li><a href="model.html#DJI">DJI</a></li>
+                            <li><a href="model.html#Hubson">Hubson</a></li>
+                            <li><a href="model.html#Autel">Autel Robotics</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2>
+                            About
+                        </h2>
+                        <ul>
+                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="aboutUs.html">About Us</a></li>
+                            <li><a href="location.html">Location</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2>Visit Us on</h2>
+                            <a href="https://www.instagram.com/dronexl.co/"><img
+                                        src="assets/images/commonIcon/iconsInstagram50x50.png" alt="" width="30"></a>
+                            <a href="https://www.facebook.com/dronexl.co"><img
+                                        src="assets/images/commonIcon/iconsFacebook50x50.png" alt="" width="30"></a>
+                            <a href="https://wa.me/+60162373933"><img
+                                        src="assets/images/commonIcon/iconsWhatsapp50x50.png" alt="" width="30"></a>
+                    </div>
+                </section>
+            </div>
+        </footer>
+    </section>
+    <script src="scripts/common.js"></script>
+    <!--External Scripts-->
+</body>
+
+
+</html>

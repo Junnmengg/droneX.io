@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="DJI, Hubson, Autel Robotics, Drone">
+    <title>DroneX | Autel Robotics Evo2 Enterprise V3</title>
+    <link rel="stylesheet" href="stylesheet/reset.css">
+    <link rel="stylesheet" href="stylesheet/basic_layout.css">
+    <link rel="icon" href="assets/images/commonIcon/DroneX-SmallLogo.png" type="image/x-icon">
+    <!--External Stylesheet-->
+    <link rel="stylesheet" href="stylesheet/Autel3.css">
+</head>
+
+<body>
+    <section class="grid-container">
+        <header id="header">
+            <nav>
+                <ul>
+                    <li>
+                        <div class="flex-container">
+                            <span class="center-flex">
+                                <div id="hamburger" class="hamburger-button" onclick="toggleIcon(this)">
+                                    <div class="bar1"></div>
+                                    <div class="bar2"></div>
+                                    <div class="bar3"></div>
+                                </div>
+                            </span>
+                            <figure>
+                                <img src="assets/images/commonIcon/DroneX-Logo.png" title="DroneX" class="center"
+                                    alt="Text Logo for DroneX" height="40" usemap="#logo-text">
+                                <map name="logo-text">
+                                    <area shape="rect" coords="0,0,155,57" href="index.html" alt="Home Page">
+                                </map>
+                            </figure>
+                            <button class="hidden" title="Log In or Sign Up">
+                                <a href="signUpLogIn.html">
+                                    <img src=" assets/images/commonIcon/iconsSignIn64x64.png" alt="Sign Up and Log In"
+                                        width="32" height="32">
+                                </a>
+                            </button>
+                        </div>
+                    </li>
+                    <span class="hamburgerMenu">
+                        <li class="not-hidden">
+                            <div>
+                                <input onfocus="listDisplayNone()" onblur="listDisplay()" onkeyup="searchMenuShow(this)"
+                                    type="text" name="search" id="search" placeholder="Search Models">
+                                <button><img src="assets/images/commonIcon/Search-Icon.png" alt="Search Icon" width="16"
+                                        height="16"></button>
+                            </div>
+                        </li>
+                        <li class="not-hidden"><a href="index.html">Home</a></li>
+                        <li class="not-hidden" onmouseover="dropDown1()" onmouseout="hideDropdownMenu1()">
+                            <a href="model.html">Models</a>
+                            <ul onmouseover="cancelHideDropdownMenu1()">
+                                <li><a href="model.html#DJI">DJI</a></li>
+                                <li><a href="model.html#Hubson">Hubson</a></li>
+                                <li><a href="model.html#Autel">Autel Robotics</a></li>
+                            </ul>
+                        </li>
+                        <li class="not-hidden"><a href="service.html">Services</a>
+                        </li>
+                        <li class="not-hidden"><a href="location.html">Location</a>
+                        </li>
+                        <li class="not-hidden"><a href="aboutUs.html">About</a></li>
+                        <li class="not-hidden"><a href="signUpLogIn.html"><span class="nowrap">Sign Up/Log
+                                    In</span></a></li>
+                    </span>
+                </ul>
+            </nav>
+        </header>
+        <main id="main">
+            <section class="searchMenu">
+                <ul id="searchUL">
+                    <li>
+                        <button onclick="searchMenuClose()">
+                            <img src="assets/images/commonIcon/cross.png" alt="Cross" width="36" height="36">
+                        </button>
+                    </li>
+                    <li><a href="DJI1.html">DJI Mini 3 Pro</a></li>
+                    <li><a href="DJI2.html">DJI Mavic 3 Classic</a></li>
+                    <li><a href="DJI3.html">DJI Avata</a></li>
+                    <li><a href="Hubson1.html">Hubson H122D X4 Storm</a></li>
+                    <li><a href="Hubson2.html">Hubson BlackHawk 1</a></li>
+                    <li><a href="Hubson3.html">Hubson Ace Pro</a></li>
+                    <li><a href="Autel1.html">Autel Robotics Evo Max</a></li>
+                    <li><a href="Autel2.html">Autel Robotics Dragonfish</a></li>
+                    <li><a href="Autel3.html">Autel Robotics Evo2 Enterprise V3</a></li>
+                    <p id="warning">There is no result matches.</p>
+                </ul>
+            </section>
+            <section>
+                <!--Code Here-->
+                <section class="body-content">
+                    <div class="container">
+                        <div class="logo-container">
+                            <img class="logo" src="assets/images/models/AutelLogo.png" alt="logo">
+                            <h1 class="modelNames" style="color: white;">Autel Robotics Evo2 Enterprise V3</h1>
+                        </div>
+
+                        <div class="button-container">
+                            <div class="column">
+                                <p class="bold-text"><293g</p>
+                                <p class="smaller-text">Weight</p>
+                            </div>
+
+                            <div class="column">
+                                <p class="bold-text">3970 mAh</p>
+                                <p class="smaller-text">Battery</p>
+                            </div>
+
+                            <div class="column">
+                                <p class="bold-text">12 m/s</p>
+                                <p class="smaller-text">Max Speed</p>
+                            </div>
+                            <button onclick="change()" class="payment">Buy now</button>
+
+                            <script type="text/javascript">
+                                function change() {
+                                    location.replace("payment.html");
+                                }
+                            </script>
+
+                        </div>
+
+                        <div class="linear-gradient"></div>
+                        <a href="#section2" class="scroll-down"></a>
+                    </div>
+
+                    <div id="section2" class="section2">
+                        <div class="container-2">
+                            <div class="linear-gradient-2">
+                                <div class="roadster-aero"></div>
+                                <div class="blur"></div>
+                                <div class="flex-content">
+                                    <h1>Weight</h3>
+                                        <p>Weighing less than 293 g and with upgraded safety features, it's not only regulation-friendly, it's also the 
+                                            safest in its series.</p>
+                                </div>
+                            </div>
+                            <div class="linear-gradient-3">
+                                <div class="flex-content1">
+                                    <h1>Battery</h1>
+                                    <p>
+                                        Large battery capacity with 3970 mAh, 40 minutes for full charged and last-longer for 1 hours flight time.
+                                    </p>
+                                </div>
+                                <div class="roadster-roof"></div>
+
+                                <div class="blur-1"></div>
+                                <div class="blur-2"></div>
+                            </div>
+                        </div>
+                        <div class="video-container">
+                            <div class="blur-top-video"></div>
+                            <iframe src="https://www.youtube.com/embed/FUFWPaUa2T4" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="section4">
+                        <h1></h1>
+                    </div>
+                </section>
+            </section>
+        </main>
+        <footer id="footer">
+            <button>
+                <a href="#header">
+                    <img src="assets/images/commonIcon/arrow-up.png" alt="Arrow UP" width="32">
+                    <span>UP</span>
+                </a>
+            </button>
+            <div>
+                <section class="flex-container">
+                    <div>
+                        <h2>
+                            Quick Links
+                        </h2>
+                        <ul>
+                            <li><a href="model.html#DJI">DJI</a></li>
+                            <li><a href="model.html#Hubson">Hubson</a></li>
+                            <li><a href="model.html#Autel">Autel Robotics</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2>
+                            About
+                        </h2>
+                        <ul>
+                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="aboutUs.html">About Us</a></li>
+                            <li><a href="location.html">Location</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2>Visit Us on</h2>
+                            <a href="https://www.instagram.com/dronexl.co/"><img
+                                        src="assets/images/commonIcon/iconsInstagram50x50.png" alt="" width="30"></a>
+                            <a href="https://www.facebook.com/dronexl.co"><img
+                                        src="assets/images/commonIcon/iconsFacebook50x50.png" alt="" width="30"></a>
+                            <a href="https://wa.me/+60162373933"><img
+                                        src="assets/images/commonIcon/iconsWhatsapp50x50.png" alt="" width="30"></a>
+                    </div>
+                </section>
+            </div>
+        </footer>
+    </section>
+    <script src="scripts/common.js"></script>
+    <!--External Scripts-->
+</body>
+
+
+</html>

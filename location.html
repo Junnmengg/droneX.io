@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="DJI, Hubson, Autel Robotics, Drone">
+    <title>DroneX | Location</title>
+    <link rel="stylesheet" href="stylesheet/reset.css">
+    <link rel="stylesheet" href="stylesheet/basic_layout.css">
+    <link rel="icon" href="assets/images/commonIcon/DroneX-SmallLogo.png" type="image/x-icon">
+    <!--External Stylesheet-->
+    <link rel="stylesheet" href="stylesheet/location.css">
+</head>
+
+<body>
+    <section class="grid-container">
+        <header id="header">
+            <nav>
+                <ul>
+                    <li>
+                        <div class="flex-container">
+                            <span class="center-flex">
+                                <div id="hamburger" class="hamburger-button" onclick="toggleIcon(this)">
+                                    <div class="bar1"></div>
+                                    <div class="bar2"></div>
+                                    <div class="bar3"></div>
+                                </div>
+                            </span>
+                            <figure>
+                                <img src="assets/images/commonIcon/DroneX-Logo.png" title="DroneX" class="center"
+                                    alt="Text Logo for DroneX" height="40" usemap="#logo-text">
+                                <map name="logo-text">
+                                    <area shape="rect" coords="0,0,155,57" href="index.html" alt="Home Page">
+                                </map>
+                            </figure>
+                            <button class="hidden" title="Log In or Sign Up">
+                                <a href="signUpLogIn.html">
+                                    <img src=" assets/images/commonIcon/iconsSignIn64x64.png" alt="Sign Up and Log In"
+                                        width="32" height="32">
+                                </a>
+                            </button>
+                        </div>
+                    </li>
+                    <span class="hamburgerMenu">
+                        <li class="not-hidden">
+                            <div>
+                                <input onfocus="listDisplayNone()" onblur="listDisplay()" onkeyup="searchMenuShow(this)"
+                                    type="text" name="search" id="search" placeholder="Search Models">
+                                <button><img src="assets/images/commonIcon/Search-Icon.png" alt="Search Icon" width="16"
+                                        height="16"></button>
+                            </div>
+                        </li>
+                        <li class="not-hidden"><a href="index.html">Home</a></li>
+                        <li class="not-hidden" onmouseover="dropDown1()" onmouseout="hideDropdownMenu1()">
+                            <a href="model.html">Models</a>
+                            <ul onmouseover="cancelHideDropdownMenu1()">
+                                <li><a href="model.html#DJI">DJI</a></li>
+                                <li><a href="model.html#Hubson">Hubson</a></li>
+                                <li><a href="model.html#Autel">Autel Robotics</a></li>
+                            </ul>
+                        </li>
+                        <li class="not-hidden"><a href="service.html">Services</a>
+                        </li>
+                        <li class="not-hidden"><a href="location.html">Location</a>
+                        </li>
+                        <li class="not-hidden"><a href="aboutUs.html">About</a></li>
+                        <li class="not-hidden"><a href="signUpLogIn.html"><span class="nowrap">Sign Up/Log
+                                    In</span></a></li>
+                    </span>
+                </ul>
+            </nav>
+        </header>
+        <main id="main">
+            <section class="searchMenu">
+                <ul id="searchUL">
+                    <li>
+                        <button onclick="searchMenuClose()">
+                            <img src="assets/images/commonIcon/cross.png" alt="Cross" width="36" height="36">
+                        </button>
+                    </li>
+                    <li><a href="DJI1.html">DJI Mini 3 Pro</a></li>
+                    <li><a href="DJI2.html">DJI Mavic 3 Classic</a></li>
+                    <li><a href="DJI3.html">DJI Avata</a></li>
+                    <li><a href="Hubson1.html">Hubson H122D X4 Storm</a></li>
+                    <li><a href="Hubson2.html">Hubson BlackHawk 1</a></li>
+                    <li><a href="Hubson3.html">Hubson Ace Pro</a></li>
+                    <li><a href="Autel1.html">Autel Robotics Evo Max</a></li>
+                    <li><a href="Autel2.html">Autel Robotics Dragonfish</a></li>
+                    <li><a href="Autel3.html">Autel Robotics Evo2 Enterprise V3</a></li>
+                    <p id="warning">There is no result matches.</p>
+                </ul>
+            </section>
+            <section>
+                <!--Code Here-->
+                <section class="location">
+                    <div class="locbox">
+
+                        <div class="locheader">
+                            <h1>DRONEX LOCATION</h1>
+                            <p class="locp">
+                                The map that provide by us is the location of each services for each brand of drone for
+                                the user that didn't know where he should go repair or services his drone can search through it.
+                            </p>
+                        </div>
+                        <div>
+                            <p class="sword">Service Location</p>
+                        </div>
+                        <div class="locpicbox">
+                            <div class="locsmallbox">
+                                <div>
+                                    <img src="assets/images/location/DJI1.jpg" alt="" class="locapic"><br>
+                                </div>
+                                <p class="title">DJI Pavilion Malaysia</p><br>
+                                <address>
+                                    Pavilion Kuala Lumpur Lot 5.24.01, 168, Jln Bukit Bintang, Bukit Bintang, 55100 KL
+                                </address><br>
+                                <a href="https://www.google.com/maps/place/DJI+Pavilion" class="add">
+                                    Visit for more information >
+                                </a><br>
+                            </div>
+                            <div class="locsmallbox">
+                                <div>
+                                    <img src="assets/images/location/Hub1.jpg" alt="" class="locapic"><br>
+                                </div>
+                                <p class="title">Hubson Malaysia</p><br>
+                                <address>
+                                    G06, Centroz 1, Jalan OP 1/3 Pusat Perdagangan One, Bandar Puchong Jaya, 47170 Puchong, Selangor
+                                </address><br>
+                                <a href="https://www.google.com/maps/place/Hubson+Malaysia" class="add">
+                                    Visit for more information >
+                                </a><br>
+                            </div>
+                            <div class="locsmallbox">
+                                <div>
+                                    <img src="assets/images/location/DJI3.JPG" alt="" class="locapic"><br>
+                                </div>
+                                <p class="title">DJI 1 Utama</p><br>
+                                <address>
+                                    1 Utama Shopping Centre, LG343A, Lower Ground Floor, Lebuh Bandar Utama, Bandar Utama, 47800 Petaling Jaya,
+                                     Selangor
+                                </address><br>
+                                <a href="https://www.google.com/maps/place/DJI+1+Utama" class="add">
+                                    Visit for more information >
+                                </a><br>
+                            </div>
+                        </div><br>
+                        <div class="locpicbox">
+                            <div class="locsmallbox">
+                                <div>
+                                    <img src="assets/images/location/Autel1.jpg" alt="" class="locapic"><br>
+                                </div>
+                                <p class="title">Autel Robotics Malaysia</p><br>
+                                <address>
+                                    Kenwingston Business Centre, 07-2A, Persiaran Bestari, Cyber 9, 63000 Cyberjaya, Selangor
+                                </address><br>
+                                <a href="https://www.google.com/maps/place/Autel+Robotics+Malaysia" class="add">
+                                    Visit for more information >
+                                </a><br>
+                            </div>
+                            <div class="locsmallbox">
+                                <div>
+                                    <img src="assets/images/location/DJI2.jpg" alt="" class="locapic"><br>
+                                </div>
+                                <p class="title">DJI IOI City Mall</p><br>
+                                <address>
+                                    L2-34, Second Floor IOI City Mall Lebuh IRC IOI Resort City, 62502 Serdang, Putrajaya
+                                </address><br>
+                                <a href="https://www.google.com/maps/place/DJI+IOI+City+Mall" class="add">
+                                    Visit for more information >
+                                </a><br>
+                            </div>
+                            <div class="locsmallbox">
+                                <div>
+                                    <img src="assets/images/location/Autel2.jpg" alt="" class="locapic"><br>
+                                </div>
+                                <p class="title">Autel Robotics Service Centre</p><br>
+                                <address>
+                                    NO. 113 - 2nd Floor, Jalan 1/91, Taman Shamelin Perkasa, 56100 Cheras, Wilayah Persekutuan Kuala Lumpur
+                                </address><br>
+                                <a href="https://www.google.com/maps/place/Autel+Robotics+Malaysia" class="add">
+                                    Visit for more information >
+                                </a><br>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </main>
+        <footer id="footer">
+            <button>
+                <a href="#header">
+                    <img src="assets/images/commonIcon/arrow-up.png" alt="Arrow UP" width="32">
+                    <span>UP</span>
+                </a>
+            </button>
+            <div>
+                <section class="flex-container">
+                    <div>
+                        <h2>
+                            Quick Links
+                        </h2>
+                        <ul>
+                            <li><a href="model.html#DJI">DJI</a></li>
+                            <li><a href="model.html#Hubson">Hubson</a></li>
+                            <li><a href="model.html#Autel">Autel Robotics</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2>
+                            About
+                        </h2>
+                        <ul>
+                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="aboutUs.html">About Us</a></li>
+                            <li><a href="location.html">Location</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2>Visit Us on</h2>
+                            <a href="https://www.instagram.com/dronexl.co/"><img
+                                        src="assets/images/commonIcon/iconsInstagram50x50.png" alt="" width="30"></a>
+                            <a href="https://www.facebook.com/dronexl.co"><img
+                                        src="assets/images/commonIcon/iconsFacebook50x50.png" alt="" width="30"></a>
+                            <a href="https://wa.me/+60162373933"><img
+                                        src="assets/images/commonIcon/iconsWhatsapp50x50.png" alt="" width="30"></a>
+                    </div>
+                </section>
+            </div>
+        </footer>
+    </section>
+    <script src="scripts/common.js"></script>
+    <!--External Scripts-->
+</body>
+
+
+</html>

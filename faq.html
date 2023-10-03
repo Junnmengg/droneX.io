@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="DJI, Hubson, Autel Robotics, Drone">
+    <title>DroneX | FAQ</title>
+    <link rel="stylesheet" href="stylesheet/reset.css">
+    <link rel="stylesheet" href="stylesheet/basic_layout.css">
+    <link rel="icon" href="assets/images/commonIcon/DroneX-SmallLogo.png" type="image/x-icon">
+    <!--External Stylesheet-->
+    <link rel="stylesheet" href="stylesheet/faq.css">
+</head>
+
+<body>
+    <section class="grid-container">
+        <header id="header">
+            <nav>
+                <ul>
+                    <li>
+                        <div class="flex-container">
+                            <span class="center-flex">
+                                <div id="hamburger" class="hamburger-button" onclick="toggleIcon(this)">
+                                    <div class="bar1"></div>
+                                    <div class="bar2"></div>
+                                    <div class="bar3"></div>
+                                </div>
+                            </span>
+                            <figure>
+                                <img src="assets/images/commonIcon/DroneX-Logo.png" title="DroneX" class="center"
+                                    alt="Text Logo for DroneX" height="40" usemap="#logo-text">
+                                <map name="logo-text">
+                                    <area shape="rect" coords="0,0,155,57" href="index.html" alt="Home Page">
+                                </map>
+                            </figure>
+                            <button class="hidden" title="Log In or Sign Up">
+                                <a href="signUpLogIn.html">
+                                    <img src=" assets/images/commonIcon/iconsSignIn64x64.png" alt="Sign Up and Log In"
+                                        width="32" height="32">
+                                </a>
+                            </button>
+                        </div>
+                    </li>
+                    <span class="hamburgerMenu">
+                        <li class="not-hidden">
+                            <div>
+                                <input onfocus="listDisplayNone()" onblur="listDisplay()" onkeyup="searchMenuShow(this)"
+                                    type="text" name="search" id="search" placeholder="Search Models">
+                                <button><img src="assets/images/commonIcon/Search-Icon.png" alt="Search Icon" width="16"
+                                        height="16"></button>
+                            </div>
+                        </li>
+                        <li class="not-hidden"><a href="index.html">Home</a></li>
+                        <li class="not-hidden" onmouseover="dropDown1()" onmouseout="hideDropdownMenu1()">
+                            <a href="model.html">Models</a>
+                            <ul onmouseover="cancelHideDropdownMenu1()">
+                                <li><a href="model.html#DJI">DJI</a></li>
+                                <li><a href="model.html#Hubson">Hubson</a></li>
+                                <li><a href="model.html#Autel">Autel Robotics</a></li>
+                            </ul>
+                        </li>
+                        <li class="not-hidden"><a href="service.html">Services</a>
+                        </li>
+                        <li class="not-hidden"><a href="location.html">Location</a>
+                        </li>
+                        <li class="not-hidden"><a href="aboutUs.html">About</a></li>
+                        <li class="not-hidden"><a href="signUpLogIn.html"><span class="nowrap">Sign Up/Log
+                                    In</span></a></li>
+                    </span>
+                </ul>
+            </nav>
+        </header>
+        <main id="main">
+            <section class="searchMenu">
+                <ul id="searchUL">
+                    <li>
+                        <button onclick="searchMenuClose()">
+                            <img src="assets/images/commonIcon/cross.png" alt="Cross" width="36" height="36">
+                        </button>
+                    </li>
+                    <li><a href="DJI1.html">DJI Mini 3 Pro</a></li>
+                    <li><a href="DJI2.html">DJI Mavic 3 Classic</a></li>
+                    <li><a href="DJI3.html">DJI Avata</a></li>
+                    <li><a href="Hubson1.html">Hubson H122D X4 Storm</a></li>
+                    <li><a href="Hubson2.html">Hubson BlackHawk 1</a></li>
+                    <li><a href="Hubson3.html">Hubson Ace Pro</a></li>
+                    <li><a href="Autel1.html">Autel Robotics Evo Max</a></li>
+                    <li><a href="Autel2.html">Autel Robotics Dragonfish</a></li>
+                    <li><a href="Autel3.html">Autel Robotics Evo2 Enterprise V3</a></li>
+                    <p id="warning">There is no result matches.</p>
+                </ul>
+            </section>
+            <section>
+                <!--Code Here-->
+                <section class="stusec">
+                    <div class="line">
+                        <br>
+                    </div>
+                    <div class="twoside">
+                        <div class="choosebox">
+                            <nav id="main-nav">
+                                <div>
+                                    <p class="article"><b>In This Article</b> </p>
+                                </div>
+                                <div class="colum">
+                                    <a href="#WhyUs" class="active">Why Us?</a>
+                                    <a href="#DroneXAccount" class="active">DroneX Account</a>
+                                    <a href="#Delivery" class="active">Delivery</a>
+                                    <a href="#Payment" class="active">Payment</a>
+                                    <a href="#Authenticity" class="active">Authenticity</a>
+                                    <a href="#Installment" class="active">Installment</a>
+                                    <a href="#Tradeins" class="active">Trade-Ins</a>
+                                    <a href="#Refund" class="active">Refund</a>
+                                    <a href="#Services" class="active">Services</a>
+                                    <a href="#Warranties" class="active">Warranties</a>
+
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="stubox">
+                            <h1 class="faq">Frequently Ask Questions</h1><br><br><br>
+                            <div id="WhyUs">
+                                <h2 class="smalltitle" class="flex">Why Us?</h2>
+                                <details>
+                                    <summary class="ques">
+                                        What is DroneX?
+                                    </summary>
+                                    <p class="ans">
+                                        Our company DroneX is a company that specializes in curating 
+                                        and selling a wide selection of drones locally and internationally. 
+                                        Founded in 2005, we strive to be a one-stop platform for not only drone lovers, 
+                                        but also drone professionals and businesses all around the globe to get access 
+                                        to top-quality drones that suit their needs with an affordable price, fast shipping, 
+                                        and great customer service.
+                                    </p>
+                                </details>
+                                <details>
+                                    <summary>
+                                        Wide Selections
+                                    </summary>
+                                    <p class="ans">
+                                        We've loaded our inventory with a wide selection of specially curated drones from 
+                                        various manufacturers all over the world. We ensure the quality of our products 
+                                        are top in the industry and also greatly trusted by drone enthusiasts.
+                                    </p>
+                                </details>
+                                <details>
+                                    <summary>
+                                        Competitive prices
+                                    </summary>
+                                    <p class="ans">
+                                        To make sure our customers always get the bang of the buck, we've established great 
+                                        connections with various drone manufacturers in order to get the best prices of the 
+                                        products. This ensures our customers to buy our products with an affordable price 
+                                        without sacrificing quality.
+
+                                    </p>
+                                </details>
+                                <details>
+                                    <summary>
+                                        24/7 expert guidance
+                                    </summary>
+                                    <p class="ans">
+                                        Our team consists of various drone enthusiasts and experts that are always educated and 
+                                        up to date with the latest news and technologies in the drone world and we understand 
+                                        that choosing the right drone for everyone's needs is difficult especially for beginners. 
+                                        Therefore, our team will always be there on the customer services to help out our customers 
+                                        to choose the best, personalized drone for themselves that suits their needs.
+
+                                    </p>
+                                </details>
+                                <details>
+                                    <summary>
+                                        Free return and warranty coverage
+                                    </summary>
+                                    <p class="ans">
+                                        We understand that buying items online doesn't always go as planned when the items received 
+                                        might not be what we expected or wanted. Therefore, we provide a 7 days free return policy 
+                                        for our customers if the drones are undamaged, with valid reasons. We also provide free 
+                                        warranty for all of our drones up to 2 years incase of any defects from the manufacturer itself.
+                                    </p>
+                                </details>
+                            </div><br><br>
+
+                            <div id="DroneXAccount">
+                                <h2 class="smalltitle" class="flex">DroneX Account</h2>
+                                <details>
+                                    <summary>Why sign up for a DroneX account?</summary>
+                                    <p class="ans">
+                                        By signing up for a DroneX account, we also provides the latest news to your email regarding 
+                                        whats happening in the Drone world to keep you updated. Any discounts or special events by us 
+                                        will also being notified to 
+                                        account users.
+
+                                    </p>
+                                </details>
+                            </div><br><br>
+
+                            <div id="Delivery">
+                                <h2 class="smalltitle" class="flex">Delivery</h2>
+                                <details>
+                                    <summary>How long does it take to deliver?</summary>
+                                    <p class="ans">
+                                        All orders will take up to 7 working days to be delivered depending on our logistic partners.
+                                    </p>
+                                </details>
+
+         
+                            </div><br><br>
+
+                            <div id="Payment">
+                                <h2 class="smalltitle" class="flex">Payment</h2>
+                                <details>
+                                    <summary>Payment methods</summary>
+                                    <p class="ans">
+                                        Payment can be made by using credit card and debit card only.
+                                    </p>
+                                </details>
+
+                            </div><br><br>
+
+                            <div id="Authenticity">
+                                <h2 class="smalltitle" class="flex">Authenticity</h2>
+                                <details>
+                                    <summary>Is our product authentic?</summary>
+                                    <p class="ans">
+                                        Yes, all of our products are 100% authentic directly from the brand factory.
+                                    </p>
+                                </details>
+                            </div><br><br>
+
+                            <div id="Installment">
+                                <h2 class="smalltitle" class="flex">Financing and Leasing</h2>
+                                <details>
+                                    <summary>Is monthly installment allowed?</summary>
+                                    <p class="ans">
+                                        Monthly installments are available with 3 option (3 month, 6 month and 12 month) by rate 4% p.a.
+                                    </p>
+                                </details>
+                            </div><br><br>
+
+                            <div id="Tradeins">
+                                <h2 class="smalltitle" class="flex">Trade-In</h2>
+                                <details>
+                                    <summary>Can i trade in my current drones to get a discount?</summary>
+                                    <p class="ans">
+                                        No, trade in is not available.
+                                    </p>
+                                </details>
+                            </div><br><br>
+
+                            <div id="Refund">
+                                <h2 class="smalltitle" class="flex">Refund</h2>
+                                <details>
+                                    <summary>Can I refund the drone I bought if I doesn't like it?</summary>
+                                    <p class="ans">
+                                        Yes, you may return your item bought within 7 days with valid reasons if the item
+                                        is undamaged.
+                                    </p>
+                                </details>
+                            </div><br><br>
+
+                            <div id="Services">
+                                <h2 class="smalltitle" class="flex">Services</h2>
+                                <details>
+                                    <summary>Where can I service my drone?</summary>
+                                    <p class="ans">
+                                        Drones can be delivered to us to service. Contact us for more information.                         
+                                    </p>
+                                </details>
+                                
+                            </div><br><br>
+                            <div id="Warranties">
+                                <h2 class="smalltitle" class="flex">Warranties</h2>
+                                <details>
+                                    <summary>Will there be any warranties?</summary>
+                                    <p class="ans">
+                                        Yes, we provide free warranty for all of our drones up to 2 years incase of any defects
+                                        cause by the manufacturer itself. Contact us for more information regarding warranty.
+                                    </p>
+                                </details>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            <!-- </section>
+            <section class="chatbot">
+                <button onclick="chatbot()"><img src="assets/images/commonIcon/bot.png" alt="Chat Bot"></button>
+                <iframe id="chatBot" allow="microphone;" width="320" height="410"
+                    src="https://console.dialogflow.com/api-client/demo/embedded/26b61089-2a95-4256-a32c-c09c860e716e">
+                </iframe>
+                <audio id="chatBotAudio">
+                    <source src="assets/audio/chatbot.wav" type="audio/wav">
+                    <source src="assets/audio/chatbot.mp3" type="audio/mp3">
+                    <embed src="assets/audio/chatbot.mp3" type="audio/mp3">
+                    Your browser doesn't support HTML5
+                </audio>
+            </section> -->
+        </main>
+        <footer id="footer">
+            <button>
+                <a href="#header">
+                    <img src="assets/images/commonIcon/arrow-up.png" alt="Arrow UP" width="32">
+                    <span>UP</span>
+                </a>
+            </button>
+            <div>
+                <section class="flex-container">
+                    <div>
+                        <h2>
+                            Quick Links
+                        </h2>
+                        <ul>
+                            <li><a href="model.html#DJI">DJI</a></li>
+                            <li><a href="model.html#Hubson">Hubson</a></li>
+                            <li><a href="model.html#Autel">Autel Robotics</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2>
+                            About
+                        </h2>
+                        <ul>
+                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="aboutUs.html">About Us</a></li>
+                            <li><a href="location.html">Location</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2>Visit Us on</h2>
+                            <a href="https://www.instagram.com/dronexl.co/"><img
+                                        src="assets/images/commonIcon/iconsInstagram50x50.png" alt="" width="30"></a>
+                            <a href="https://www.facebook.com/dronexl.co"><img
+                                        src="assets/images/commonIcon/iconsFacebook50x50.png" alt="" width="30"></a>
+                            <a href="https://wa.me/+60162373933"><img
+                                        src="assets/images/commonIcon/iconsWhatsapp50x50.png" alt="" width="30"></a>
+                    </div>
+                </section>
+            </div>
+            <!-- <div>
+                <a href="siteMap.html">
+                    <p>Copyright © 2023 Lux-G. All rights reserved.</p>
+                </a>
+            </div> -->
+        </footer>
+    </section>
+    <script src="scripts/common.js"></script>
+    <!--External Scripts-->
+</body>
+
+
+</html>
